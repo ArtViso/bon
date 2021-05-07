@@ -441,8 +441,26 @@ nav.main-menu.active {
 }
 
 .s3 {
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
   background-color: white;
+  height: 640px;
+}
+
+.section_three_rectangle {
+  position: absolute;
+  z-index: -1;
+  top: 46%;
+  left: 85.2%;
+  transform: translate(-50%, -50%);
+}
+
+.section_three_rectangle .rectangle {
+  width: 545px;
   height: 585px;
+  border-radius: 20px 0px 0px 20px;
+  background: #E9F6E9;
 }
 
 .section_three {
@@ -495,6 +513,39 @@ nav.main-menu.active {
   margin-right: 10%;
 }
 
+.s4 {
+  background-color: white;
+  height: 640px;
+}
+
+.section_four {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.section_four_processing {
+  border: 2px solid red;
+}
+
+.section_four_processing .section_four_processing_text {
+  text-align: center;
+  font-family: 'Futura', Arial, sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.section_four_processing .section_four_processing_icon {
+  display: flex;
+  justify-content: start;
+  margin-top: 6.1%;
+}
+
+.section_four_processing .section_four_processing_icon .icon_box {
+  margin-left: 27.8%;
+}
+
 @media screen and (max-width: 1025px) {
   .young {
     text-align: center;
@@ -517,6 +568,9 @@ nav.main-menu.active {
   .ellipse1 {
     margin-left: 2%;
   }
+  .section_three_rectangle {
+    margin-left: 7%;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -529,6 +583,12 @@ nav.main-menu.active {
   .young_corn {
     margin-left: -3%;
   }
+  .s3 {
+    z-index: 0;
+  }
+  .section_three_rectangle {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -536,7 +596,11 @@ nav.main-menu.active {
     height: 850px;
   }
   .s2 {
-    height: 1100px;
+    height: 1200px;
+  }
+  .s3 {
+    height: 800px;
+    background-color: #E9F6E9;
   }
   .sect__box__text {
     margin-top: 2%;
@@ -604,18 +668,17 @@ nav.main-menu.active {
 .ellipse2,
 .ellipse3 {
     margin-left: 0;
-    margin-bottom: 15%;
+    margin-top: 15%;
   }
   .ellipse1 p,
 .ellipse2 p,
 .ellipse3 p {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .section_three_box {
     width: 100%;
     margin: 0 auto;
     display: block;
-    background-color: #E9F6E9;
   }
   .section_three_box_text .section_three_box_text_colum {
     margin: 0 auto;
