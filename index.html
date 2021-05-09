@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/css/slick/slick.css">
+    <link rel="stylesheet" href="/css/slick/slick-theme.css">
     <title>Document</title>
 </head>
 
@@ -20,12 +23,12 @@
             </div>
         </div>
         <div class="header__menu">
-            <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+            <!-- <input id="nav-toggle" class="nav-toggle" type="checkbox" />
             <label class="nav-toggle-label" for="nav-toggle">
                 <span class="burger__line burger__line--one"></span>
                 <span class="burger__line burger__line--two"></span>
                 <span class="burger__line burger__line--tree"></span>
-            </label>
+            </label> -->
             <div class="header__menu__main">
                 <nav class="main-menu">
                     <a class="main-menu__link" href="test.html">Продукты</a>
@@ -40,42 +43,42 @@
         </div>
     </header>
     <main>
-        <section class="s1">
+        <section class="s1 animate__animated animate__fadeIn">
             <div class="sect__back__img">
-                <div class="circle__box">
+                <div class="circle__box animate__animated animate__fadeIn animate__delay-1s">
                     <div class="circle"></div>
                 </div>
                 <div class="sect_center">
                     <div class="sect__box">
                         <div class="sect__box__text">
-                            <h1>ПЕРАБОТКА <br> УПАКОВОК</h1>
+                            <h1 class="animate__animated animate__fadeIn animate__delay-2s">ПЕРАБОТКА <br> УПАКОВОК</h1>
                         </div>
                     </div>
                     <div class="young">
-                        <div class="young_pea">
+                        <div class="young_pea animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/Young_pea.png" alt="pea">
                         </div>
-                        <div class="young_lineL">
+                        <div class="young_lineL animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/lineL.png" alt="lineL">
                         </div>
-                        <div class="young_eco">
+                        <div class="young_eco animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/eco.png" alt="pea">
                         </div>
-                        <div class="young_lineR">
+                        <div class="young_lineR animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/lineR.png" alt="lineR">
                         </div>
-                        <div class="young_corn">
+                        <div class="young_corn animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/young_corn.png" alt="corn">
                         </div>
                     </div>
-                    <div class="sect_text">
+                    <div class="sect_text animate__animated animate__fadeIn animate__delay-4s">
                         <p>80–90% упаковок продукции <br>Bonduelle подлежит переработке</p>
                     </div>
                     <div class="young_olives">
                         <img src="./img/olive.png" alt="corn">
                     </div>
-                    <div class="sect_btn">
-                        <button class="btn">Хочу действовать</button>
+                    <div class="sect_btn animate__animated animate__fadeIn animate__delay-5s">
+                        <a href="#page1"><button class="btn">Хочу действовать</button></a>
                     </div>
                 </div>
             </div>
@@ -119,7 +122,7 @@
         <section class="s3">
             <div class="section_three">
                 <div class="section_three_rectangle">
-                    <div class="rectangle"></div>
+                    <!-- <div class="rectangle"></div> -->
                 </div>
                 <div class="section_three_box">
                     <div class="section_three_box_text">
@@ -139,7 +142,7 @@
                         </div>
 
                     </div>
-                    <div class="section_three_box_eco">
+                    <div class="section_three_box_eco wow animate__animated animate__fadeInRightBig animate__slow">
                         <img src="./img/ecograss.png" alt="grass">
                     </div>
                 </div>
@@ -149,27 +152,524 @@
             <div class="section_four">
                 <div class="section_four_processing">
                     <div class="section_four_processing_text">
-                        <h1>что вы хотите переработать?</h1>
+                        <h1 id="page1">что вы хотите переработать?</h1>
                     </div>
-                    <div class="section_four_processing_icon">
+                    <div class=" section_four_processing_icon">
                         <div class="icon_box">
-                            <img src="./img/tin.png" alt="tin">
+                            <div class="icon_box_back">
+                                <img src="./img/tin.png" alt="tin">
+                            </div>
                             <h1>Жесть</h1>
                         </div>
                         <div class="icon_box2">
-                            <img src="./img/tin.png" alt="tin">
-                            <h1>Жесть</h1>
+                            <div class="icon_box_back2">
+                                <img src="./img/plastic.png" alt="plastic">
+                            </div>
+                            <h1>Пластик</h1>
                         </div>
                         <div class="icon_box3">
-                            <img src="./img/tin.png" alt="tin">
-                            <h1>Жесть</h1>
+                            <div class="icon_box_back3">
+                                <img src="./img/glass.png">
+                            </div>
+                            <h1>Стекло</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="s5">
+            <div class="section_five">
+                <div class="section_five_main">
+                    <div class="section_five_main_heading_text">
+                        <h1>жесть</h1>
+                    </div>
+                    <button class="btn_tin">А знаете<br>ли вы?</button>
+                    <div class="modal">
+                        <div class="modal_pos">
+                            <div class="cloud">
+                                <h1>Переработка алюминиевых банок и тары из жести имеет ряд достоинств:</h1>
+                                <ul>
+                                    <li>Снижение вреда окружающей среде за счет меньшего ее загрязнения
+                                        металлом;
+                                    </li>
+                                    <li>Повторное применение материалов экономит до 40% воды при производстве
+                                        тары.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_five_main_colum">
+                        <div class="section_five_main_colum1">
+                            <div class="section_five_main_colum1_eco">
+                                <img src="/img/eco40.png" alt="eco40">
+                            </div>
+                            <div class="section_five_main_colum1_trash">
+                                <img src="/img/trash.png" alt="">
+                            </div>
+                        </div>
+                        <div class="section_five_main_colum2">
+                            <div class="section_five_main_colum2_text1">
+                                <h1>Жесть, консервные банки</h1>
+                                <p>При правильной переработке получаеся вторичное сырьё, которое подлежит<br>
+                                    дальнейшей продаже.</p>
+                            </div>
+                            <div class="section_five_main_colum2_text2">
+                                <h1>Как подготовить упаковку</h1>
+                                <p>Материал должен быть сухим и чистым. По возможности удалите этикетки и <br>
+                                    постарайтесь уменьшить объём. Не забудь про крышечку!</p>
+                            </div>
+                            <div class="section_three_rectangles">
+                                <!-- <div class="rectangles"></div> -->
+                            </div>
+
+                            <div class="section_five_main_colum2_slider">
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Молодой горошек</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Молодоая кукуруза</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Оливки с голубым <br> сыром</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">Оливки с лимоном</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Молодой горошек</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Молодоая кукуруза</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Оливки с голубым <br>сыром</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs1/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">Оливки с лимоном</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <ul class="btns">
+                <li class="prev"></li>
+                <li class="next"></li>
+            </ul>
+            <div class="section_five_foot">
+                <div class="section_five_foot_box">
+                    <div class="section_five_foot_text">
+                        <h1>Найди ближайщий пункт переработки с помощью карты Greenpeace</h1>
+                    </div>
+                    <div class="section_five_foot_map">
+                        <img src="img/map.png" alt="map">
+                    </div>
+                    <button class="btn_map">найти</button>
+                </div>
+            </div>
+        </section>
+        <section class="s6">
+            <div class="section_five">
+                <div class="section_five_main">
+                    <div class="section_five_main_heading_text">
+                        <h1>cтекло</h1>
+                    </div>
+                    <button class="btn_tin btnTin2">А знаете<br>ли вы?</button>
+                    <div class="modal modal2">
+                        <div class="modal_pos">
+                            <div class="cloud2">
+                                <h1>Стекло 70 GL (бесцветное стекло), коды стекла 70-79.</h1>
+                                <p>Когда на стекле пишут 40 FE - это, как правило, имеют в виду жестяную крышку.</p>
+                                <h1>Несколько фактов:</h1>
+                                <ul>
+                                    <li>Стекло может быть переработано на 100%, не теряя своих свойств (в отличие от
+                                        пластиков, например).
+                                    </li>
+                                    <li>Переработка на 40% дешевле, чем производство нового стекла.</li>
+                                    <li>Стекло — неорганический материал и в процессе разрушения стекло просто
+                                        измельчается
+                                        снова на кварцевый песок.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_five_main_colum">
+                        <div class="section_five_main_colum1">
+                            <div class="section_five_main_colum1_eco">
+                                <img src="/img/eco70.png" alt="eco40">
+                            </div>
+                            <div class="section_five_main_colum1_trash">
+                                <img src="/img/trash2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="section_five_main_colum2">
+                            <div class="section_five_main_colum2_text1">
+                                <h1>Стекло и стеклотара</h1>
+                                <p>Cтекло можно сдать в синие контейнеры в Москве или зеленые в других регионах.</p>
+                            </div>
+                            <div class="section_five_main_colum2_text2">
+                                <h1>Как подготовить упаковку</h1>
+                                <p>С банки необходимо снять крышку, так как она утилизируется отдельно. Банку промойте
+                                    от остатков пищи, а вот этикетку можете не удалять.</p>
+                            </div>
+                            <div class="section_three_rectangles">
+                                <!-- <div class="rectangles"></div> -->
+                            </div>
+
+                            <div class="section_five_main_colum2_slider">
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Красная фасоль <br>в классическом Барбекю</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Белая фасоль <br>в пряном Карри</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Печеная фасоль со <br>сладким перцем</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">Нут с черносливом </div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Красная фасоль <br>в классическом Барбекю</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Белая фасоль <br>в пряном Карри</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Печеная фасоль со <br>сладким перцем</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs2/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">Нут с черносливом </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <ul class="btns">
+                <li class="prev"></li>
+                <li class="next"></li>
+            </ul>
+            <div class="section_five_foot">
+                <div class="section_five_foot_box">
+                    <div class="section_five_foot_text">
+                        <h1>Найди ближайщий пункт переработки с помощью карты Greenpeace</h1>
+                    </div>
+                    <div class="section_five_foot_map">
+                        <img src="img/map.png" alt="map">
+                    </div>
+                    <button class="btn_map">найти</button>
+                </div>
+            </div>
+        </section>
+        <section class="s7">
+            <div class="section_five">
+                <div class="section_five_main">
+                    <div class="section_five_main_heading_text">
+                        <h1>пластик</h1>
+                    </div>
+                    <button class="btn_tin btnTin3">А знаете<br>ли вы?</button>
+                    <div class="modal modal3">
+                        <div class="modal_pos">
+                            <div class="cloud3">
+                                <h1>C/LDPe - это, как правило, код 90 - это композитный материал: пластик + алюминий.
+                                </h1>
+                                <p>93-94 - это свободные коды, то есть за ними не закреплен какой-то конкретный
+                                    материал.</p>
+                                <p>90 - Композиционный материал: пластик + алюминий</p>
+                                <h1>Краткое описание:</h1>
+                                <h6>Из него делают антистатические пакеты, упаковку еды быстрого
+                                    приготовления, металлизированные пакеты, тюбики от зубной пасты, кофейный ламинат.
+                                </h6>
+                                <h1>Перерабатывается ли в Москве:</h1>
+                                <h6>Нет, такой материал сложно сдать на переработку. Нужно
+                                    искать специальные пункты приема/проекты (Экоцентр Сборка и Собиратор), в ином
+                                    случае, придется отправить всё в контейнеры с надписью «Смешанные отходы».</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_five_main_colum">
+                        <div class="section_five_main_colum1">
+                            <div class="section_five_main_colum1_eco">
+                                <img src="/img/eco93.png" alt="eco40">
+                            </div>
+                            <div class="section_five_main_colum1_trash">
+                                <img src="/img/trash3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="section_five_main_colum2">
+                            <div class="section_five_main_colum2_text1">
+                                <h1>Композиционный материал: пластик + алюминий</h1>
+                                <p>Упаковку еды быстрого приготовления и заморозки можно сдать только в специальные
+                                    пункты сдачи — «Собиратор», экоцентр «Сборка» и т. д. Если в вашем городе нет такого
+                                    пункта — используйте контейнер для смешанных отходов.</p>
+                            </div>
+                            <div class="section_five_main_colum2_text2">
+                                <h1>Как подготовить упаковку</h1>
+                                <p>В контейнер для смешанных отходов подготовка не требуется. Если сдаете в специальные
+                                    пункты приема — ориентируйтесь на их официальные требования. </p>
+                            </div>
+                            <div class="section_three_rectangles">
+                                <!-- <div class="rectangles"></div> -->
+                            </div>
+
+                            <div class="section_five_main_colum2_slider">
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Брокколи мини</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Цветная капуста мини</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Смесь летнее трио</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">«Фасулье» овощи <br>по-турецки</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s1.png" alt="s1">
+                                    </div>
+                                    <div class="text">Брокколи мини</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s2.png" alt="s1">
+                                    </div>
+                                    <div class="text">Цветная капуста мини</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s3.png" alt="s1">
+                                    </div>
+                                    <div class="text">Смесь летнее трио</div>
+                                </div>
+                                <div class="slider_block">
+                                    <div class="slider_block_img">
+                                        <img src="/imgs3/s4.png" alt="s1">
+                                    </div>
+                                    <div class="text">«Фасулье» овощи <br>по-турецки</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <ul class="btns">
+                <li class="prev"></li>
+                <li class="next"></li>
+            </ul>
+        </section>
+        <section class="s8">
+            <div class="sect__back__img">
+                <div class="circle__box">
+                    <div class="circle2"></div>
+                </div>
+                <div class="sect_center">
+                    <div class="sect__box">
+                        <div class="sect__box__text2">
+                            <h1>Скоро будем <br> перерабатывать</h1>
+                            <div class="sect__box__text2_p1">
+                                <p>На данный момент наши упаковки из пластика нельзя сдать в переработку у вашего<br>
+                                    дома
+                                    или
+                                    специализированные пункты приема.</p>
+                            </div>
+                            <div class="sect__box__text2_p2">
+                                <p><b>100%</b> нашей упаковки станет перерабатываемой или повторно используемой к
+                                    <br><b>2025</b> году
+                                    в
+                                    рамках стратегии по корпоративной социальной ответственности.</p>
+                            </div>
+                            <div class="sect__box__text2_btn">
+                                <a href="#page1"><button class="btn_bs">Узнать больше</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="s9">
+            <div class="section_nine">
+                <div class="section_nine_box1">
+                    <div class="section_nine_boxe">
+                        <div class="section_nine_box1_img1">
+                            <img src="/img/crossroads.png" alt="crossroads">
+                        </div>
+                        <div class="section_nine_box1_img2">
+                            <img src="/img/ecofo.png" alt="ecofo">
+                        </div>
+                        <div class="section_nine_box1_img3">
+                            <img src="/img/collector.png" alt="collector">
+                        </div>
+                    </div>
+                </div>
+                <div class="section_nine_box2">
+                    <div class="section_nine_box2_btn">
+                        <button class="btn_bs2">Скидки - за раздельный сбор</button>
+                    </div>
+                    <div class="section_nine_boxe2_cent">
+                        <div class="section_nine_boxe2">
+                            <h1>1</h1>
+                            <div class="section_nine_boxe2_text">
+                                <h2>Соберите</h2>
+                                <p>пакетвторсырья</p>
+                            </div>
+                        </div>
+                        <div class="section_nine_boxe3">
+                            <h1>2</h1>
+                            <div class="section_nine_boxe2_text">
+                                <h2>Сдайте</h2>
+                                <p>собранное<br>в пункт приема</p>
+                            </div>
+                        </div>
+                        <div class="section_nine_boxe4">
+                            <h1>3</h1>
+                            <div class="section_nine_boxe2_text">
+                                <h2>Выберите</h2>
+                                <p>для себя купон <br> на скидку</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s10">
+            <div class="section_three">
+                <div class="section_three_rectangle">
+                    <!-- <div class="rectangle"></div> -->
+                </div>
+                <div class="section_three_box">
+                    <div class="section_three_box_text">
+                        <div class="section_three_box_text_colum">
+                            <h1>Памятка</h1>
+                            <p>Здесь вы найдете гайд по переработке, который поможет не забыть значения маркировок и
+                                цвета контейнеров. Просто скачайте его на телефон или распечатайте и повесьте на
+                                холодильник - так все нужные знания всегда будут под рукой!
+                            </p>
+                            <div class="sect__box__text2_btn">
+                                <a href="#page1"><button class="btn_bs">Скачать гайд</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="section_three_box_eco_line">
+                        <img src="./img/line.png" alt="grass">
+                    </div>
+                    <div class="section_three_box_eco">
+                        <img src="./img/leaflet.png" alt="grass">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s11">
+            <div class="section_four">
+                <div class="section_four_processing">
+                    <div class="section_four_processing_text2">
+                        <h1 id="page1">Куда сдать упаковку?</h1>
+                    </div>
+                    <div class="section_four_processing_ifrem">
+                        <div class="section_four_processing_ifrem_ab">
+                            <iframe
+                                src="https://recyclemap.ru/?frame_mode=1&utm_source=bonduelle&utm_medium=referral&utm_campaign=recyclemap&utm_content=iframe"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s12">
+
+        </section>
     </main>
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script>
+        $('.section_five_main_colum2_slider').slick({
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            responsive: [{
+                breakpoint: 769,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    nextArrow: '.next',
+                    prevArrow: '.prev',
+                }
+            }]
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
