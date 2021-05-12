@@ -25,7 +25,7 @@
         <div class="header__menu">
             <div class="header__menu__main" id="page2">
                 <nav class="main-menu">
-                    <a class="main-menu__link" href="test.html">Продукты</a>
+                    <a class="main-menu__link" href="#">Продукты</a>
                     <a class="main-menu__link" href="#">Гео-Гурмания</a>
                     <a class="main-menu__link" href="#">Рецепты</a>
                     <a class="main-menu__link" href="#">Готовим с детьми</a>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="young">
                         <div class="young_pea animate__animated animate__fadeIn animate__delay-3s">
-                            <img src="./img/Young_pea.png" alt="pea">
+                            <img src="./peck/1.png" alt="pea" id="image">
                         </div>
                         <div class="young_lineL animate__animated animate__fadeIn animate__delay-3s">
                             <img src="./img/lineL.png" alt="lineL">
@@ -61,16 +61,16 @@
                             <img src="./img/lineR.png" alt="lineR">
                         </div>
                         <div class="young_corn animate__animated animate__fadeIn animate__delay-3s">
-                            <img src="./img/young_corn.png" alt="corn">
+                            <img src="./peck/2.png" alt="corn" id="image2">
                         </div>
                     </div>
-                    <div class="sect_text animate__animated animate__fadeIn animate__delay-4s">
+                    <div class="sect_text animate__animated animate__fadeIn animate__delay-4s ">
                         <p>80–90% упаковок продукции <br>Bonduelle подлежит переработке</p>
                     </div>
-                    <div class="young_olives">
+                    <div class="young_olives animate__animated animate__fadeIn animate__delay-4s">
                         <img src="./img/olive.png" alt="corn">
                     </div>
-                    <div class="sect_btn animate__animated animate__fadeIn animate__delay-5s">
+                    <div class="sect_btn animate__animated animate__fadeIn animate__delay-5s" id="bnst">
                         <a href="#page1"><button class="btn">Хочу действовать</button></a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                                 <h2>КГ</h2>
                             </div>
                         </div>
-                        <p>отходов производит <br> <b>1</b> человек за 1 год жизни</p>
+                        <p>отходов производит <br> 1 человек за 1 год жизни</p>
                     </div>
                     <div class="ellipse2">
                         <div class="circle2">
@@ -149,22 +149,28 @@
                     </div>
                     <div class=" section_four_processing_icon">
                         <div class="icon_box">
-                            <div class="icon_box_back">
-                                <img src="./img/tin.png" alt="tin">
-                            </div>
-                            <h1>Жесть</h1>
+                            <a href="#tin">
+                                <div class="icon_box_back">
+                                    <img src="/img/inv1.png" alt="tin" id="myImage">
+                                </div>
+                                <h1>Жесть</h1>
+                            </a>
                         </div>
                         <div class="icon_box2">
-                            <div class="icon_box_back2">
-                                <img src="./img/plastic.png" alt="plastic">
-                            </div>
-                            <h1>Пластик</h1>
+                            <a href="#plastic">
+                                <div class="icon_box_back2">
+                                    <img src="./img/plastic.png" alt="plastic" id="myImage2">
+                                </div>
+                                <h1>Пластик</h1>
+                            </a>
                         </div>
                         <div class="icon_box3">
-                            <div class="icon_box_back3">
-                                <img src="./img/glass.png">
-                            </div>
-                            <h1>Стекло</h1>
+                            <a href="#glass">
+                                <div class="icon_box_back3">
+                                    <img src="./img/glass.png" id="myImage3">
+                                </div>
+                                <h1>Стекло</h1>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -174,17 +180,14 @@
             <div class="section_five">
                 <div class="section_five_main">
                     <div class="section_five_main_heading_text">
-                        <h1>жесть</h1>
+                        <h1 id="tin">жесть</h1>
                     </div>
                     <div class="section_five_main_colum">
                         <div class="section_five_main_colum1">
-
                             <div class="section_five_main_colum1_eco">
-
                                 <img src="/img/eco40.png" alt="eco40">
                             </div>
-                            <button class="btn_tin">А знаете<br>ли вы?</button>
-                            <div class="modal">
+                            <button class="btn_tin">А знаете<br>ли вы?
                                 <div class="modal_pos">
                                     <div class="cloud">
                                         <h1>Переработка алюминиевых банок и тары из жести имеет ряд достоинств:</h1>
@@ -192,13 +195,15 @@
                                             <li>Снижение вреда окружающей среде за счет меньшего ее загрязнения
                                                 металлом;
                                             </li>
-                                            <li>Повторное применение материалов экономит до 40% воды при производстве
+                                            <li>Повторное применение материалов экономит до 40% воды при
+                                                производстве
                                                 тары.
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </button>
+                            <div class="modal"></div>
                             <div class="section_five_main_colum1_trash">
                                 <img src="/img/trash.png" alt="">
                             </div>
@@ -294,32 +299,34 @@
             <div class="section_five">
                 <div class="section_six_main">
                     <div class="section_six_main_heading_text">
-                        <h1>cтекло</h1>
-                    </div>
-                    <div class="modal modal2">
-                        <div class="modal_pos">
-                            <div class="cloud2">
-                                <h1>Стекло 70 GL (бесцветное стекло), коды стекла 70-79.</h1>
-                                <p>Когда на стекле пишут 40 FE - это, как правило, имеют в виду жестяную крышку.</p>
-                                <h1>Несколько фактов:</h1>
-                                <ul>
-                                    <li>Стекло может быть переработано на 100%, не теряя своих свойств (в отличие от
-                                        пластиков, например).
-                                    </li>
-                                    <li>Переработка на 40% дешевле, чем производство нового стекла.</li>
-                                    <li>Стекло — неорганический материал и в процессе разрушения стекло просто
-                                        измельчается
-                                        снова на кварцевый песок.</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h1 id="glass">cтекло</h1>
                     </div>
                     <div class="section_five_main_colum">
                         <div class="section_five_main_colum1">
                             <div class="section_six_main_colum1_eco">
                                 <img src="/img/eco70.png" alt="eco40">
                             </div>
-                            <button class="btn_tin2 btnTin2">А знаете<br>ли вы?</button>
+                            <button class="btn_tin2 btnTin2">А знаете<br>ли вы?
+                                <div class="modal_pos2">
+                                    <div class="cloud2">
+                                        <h1>Стекло 70 GL (бесцветное стекло), коды стекла 70-79.</h1>
+                                        <p>Когда на стекле пишут 40 FE - это, как правило, имеют в виду жестяную крышку.
+                                        </p>
+                                        <h1>Несколько фактов:</h1>
+                                        <ul>
+                                            <li>Стекло может быть переработано на 100%, не теряя своих свойств (в
+                                                отличие от
+                                                пластиков, например).
+                                            </li>
+                                            <li>Переработка на 40% дешевле, чем производство нового стекла.</li>
+                                            <li>Стекло — неорганический материал и в процессе разрушения стекло просто
+                                                измельчается
+                                                снова на кварцевый песок.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="modal2"></div>
                             <div class="section_five_main_colum1_trash">
                                 <img src="/img/trash2.png" alt="">
                             </div>
@@ -416,33 +423,37 @@
             <div class="section_seven">
                 <div class="section_seven_main">
                     <div class="section_seven_main_heading_text">
-                        <h1>пластик</h1>
-                    </div>
-                    <div class="modal modal3">
-                        <div class="modal_pos">
-                            <div class="cloud3">
-                                <h1>C/LDPe - это, как правило, код 90 - это композитный материал: пластик + алюминий.
-                                </h1>
-                                <p>93-94 - это свободные коды, то есть за ними не закреплен какой-то конкретный
-                                    материал.</p>
-                                <p>90 - Композиционный материал: пластик + алюминий</p>
-                                <h1>Краткое описание:</h1>
-                                <h6>Из него делают антистатические пакеты, упаковку еды быстрого
-                                    приготовления, металлизированные пакеты, тюбики от зубной пасты, кофейный ламинат.
-                                </h6>
-                                <h1>Перерабатывается ли в Москве:</h1>
-                                <h6>Нет, такой материал сложно сдать на переработку. Нужно
-                                    искать специальные пункты приема/проекты (Экоцентр Сборка и Собиратор), в ином
-                                    случае, придется отправить всё в контейнеры с надписью «Смешанные отходы».</h6>
-                            </div>
-                        </div>
+                        <h1 id="plastic">пластик</h1>
                     </div>
                     <div class="section_seven_main_colum">
                         <div class="section_seven_main_colum1">
                             <div class="section_seven_main_colum1_eco">
                                 <img src="/img/eco93.png" alt="eco40">
                             </div>
-                            <button class="btn_tin3 btnTin3">А знаете<br>ли вы?</button>
+                            <button class="btn_tin3 btnTin3">А знаете<br>ли вы?
+                                <div class="modal_pos3">
+                                    <div class="cloud3">
+                                        <h1>C/LDPe - это, как правило, код 90 - это композитный материал: пластик +
+                                            алюминий.
+                                        </h1>
+                                        <p>93-94 - это свободные коды, то есть за ними не закреплен какой-то конкретный
+                                            материал.</p>
+                                        <p>90 - Композиционный материал: пластик + алюминий</p>
+                                        <h1>Краткое описание:</h1>
+                                        <h6>Из него делают антистатические пакеты, упаковку еды быстрого
+                                            приготовления, металлизированные пакеты, тюбики от зубной пасты, кофейный
+                                            ламинат.
+                                        </h6>
+                                        <h1>Перерабатывается ли в Москве:</h1>
+                                        <h6>Нет, такой материал сложно сдать на переработку. Нужно
+                                            искать специальные пункты приема/проекты (Экоцентр Сборка и Собиратор), в
+                                            ином
+                                            случае, придется отправить всё в контейнеры с надписью «Смешанные отходы».
+                                        </h6>
+                                    </div>
+                                </div></button>
+                            <div class="modal3"></div>
+
                             <div class="section_seven_main_colum1_trash">
                                 <img src="/img/trash3.png" alt="">
                             </div>
@@ -547,7 +558,8 @@
                                     рамках стратегии по корпоративной социальной ответственности.</p>
                             </div>
                             <div class="sect__box__text2_btn">
-                                <a href="#page1"><button class="btn_bs">Узнать больше</button></a>
+                                <a href="https://bonduelle.ru/about/corporate-social-responsibility/"><button
+                                        class="btn_bs">Узнать больше</button></a>
                             </div>
                         </div>
                     </div>
@@ -613,7 +625,7 @@
                                 холодильник - так все <br> нужные знания всегда будут под рукой!
                             </p>
                             <div class="sect__box__text2_btn">
-                                <a href="#page1"><button class="btn_bs10">Скачать гайд</button></a>
+                                <a href="#"><button class="btn_bs10">Скачать гайд</button></a>
                             </div>
                         </div>
 
@@ -698,31 +710,31 @@
             <div class="footer__top_block">
                 <ul class="footer__nav">
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/about/">О компании</a>
+                        <a class="footer-nav__link" href="#">О компании</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/about/vacancy/">Карьера в Bonduelle</a>
+                        <a class="footer-nav__link" href="#">Карьера в Bonduelle</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/site/contacts/">Контакты</a>
+                        <a class="footer-nav__link" href="#">Контакты</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/faq/">Вопросы и ответы</a>
+                        <a class="footer-nav__link" href="#">Вопросы и ответы</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/reklama/">Рекламные материалы</a>
+                        <a class="footer-nav__link" href="#">Рекламные материалы</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/site/agreement/">Пользовательское соглашение</a>
+                        <a class="footer-nav__link" href="#">Пользовательское соглашение</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="https://foodservice.bonduelle.ru/">Food Service</a>
+                        <a class="footer-nav__link" href="#">Food Service</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/site/map/">Карта сайта</a>
+                        <a class="footer-nav__link" href="#">Карта сайта</a>
                     </li>
                     <li class="footer-nav__item">
-                        <a class="footer-nav__link" href="/site/personaldata/">Политика о персональных данных</a>
+                        <a class="footer-nav__link" href="#">Политика о персональных данных</a>
                     </li>
                 </ul>
                 <img src="/img/logo.png" alt="" class="footer__top_block_logo">
@@ -740,9 +752,9 @@
     </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/script.js"></script>
-    <script src="../js/wow.min.js"></script>
+    <script src="/js/wow.min.js"></script>
     <script src="/js/slick.min.js"></script>
+    <script src="/js/script.js"></script>
     <script>
         $('.section_five_main_colum2_slider').slick({
             arrows: false,
