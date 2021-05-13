@@ -20,10 +20,11 @@ image2.classList.add("imgAll");
 
 const imgLinks = [
     '/peck/4.png',
-    '/peck/3.png',
+    '/peck/5.png',
     '/peck/1.png'
 ];
-const delay = 5000;
+
+const delay = 3000;
 let currentIndex = 0;
     setInterval(function() {
         image.src = imgLinks[currentIndex];
@@ -33,8 +34,8 @@ let currentIndex = 0;
         }
 }, delay);
 const imgLinks2 = [
-    '/peck/6.png ',
-    '/peck/5.png',
+    '/peck/3.png ',
+    '/peck/6.png',
     '/peck/2.png'
 ];
 

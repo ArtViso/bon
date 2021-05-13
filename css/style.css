@@ -249,8 +249,8 @@ nav.main-menu.active {
 
 .imgAll {
   max-width: 100%;
-  animation: fade 5s linear infinite;
-  animation-delay: 2.5s;
+  animation: fade 3s linear infinite;
+  animation-delay: 1.5s;
 }
 
 @keyframes fade {
