@@ -21,6 +21,7 @@ image2.classList.add("imgAll");
 const imgLinks = [
     '/peck/4.png',
     '/peck/3.png',
+    '/peck/1.png'
 ];
 const delay = 5000;
 let currentIndex = 0;
@@ -34,6 +35,7 @@ let currentIndex = 0;
 const imgLinks2 = [
     '/peck/6.png ',
     '/peck/5.png',
+    '/peck/2.png'
 ];
 
 let currentIndex2 = 0;

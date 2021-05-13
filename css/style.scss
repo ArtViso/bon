@@ -2385,6 +2385,24 @@ footer {
     .section_twelve_processing .section_twelve_processing_icon .icon_box3 {
         margin-left: 5%;
     }
+
+    .cloud {
+        width: 550px;
+    }
+
+    .cloud3 p {
+        line-height: 20px;
+    }
+
+    .cloud2 {
+        width: 600px;
+    }
+
+    .cloud3 {
+        border-radius: 40px;
+        height: 410px;
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 970px) {
@@ -2396,6 +2414,30 @@ footer {
 @media screen and (max-width: 769px) {
     .main-menu__link {
         padding: 0 20px;
+    }
+    .cloud {
+        width: 480px;
+        padding: 15px;
+    }
+    .cloud2 {
+        width: 480px;
+        padding: 15px;
+    }
+
+    .cloud2 li {
+        margin: 2%;
+    }
+
+    .cloud3 {
+        width: 480px;
+    }
+
+    .modal_pos2 {
+        left: -35%;
+    }
+
+    .modal_pos3 {
+        left: -35%;
     }
 
     .young {
@@ -2877,7 +2919,6 @@ footer {
     .section_seven_main_colum1 {
         margin: 0 auto;
     }
-
 
     .btn_tin {
         top: 92%;
@@ -3681,6 +3722,7 @@ footer {
 
     .cloud {
         width: 250px;
+        padding: 15px;
     }
 
     .cloud2 {
@@ -3689,6 +3731,7 @@ footer {
 
     .cloud3 {
         width: 250px;
+        padding: 15px;
     }
 
     .cloud2 p {
@@ -3700,15 +3743,15 @@ footer {
     }
 
     .modal_pos3 {
-        left: 4%;
+        left: -130%;
     }
 
     .modal_pos2 {
-        left: 6%;
+        left: -125%;
     }
 
     .modal_pos {
-        left: 3%;
+        left: -130%;
     }
 
     .cloud li {
