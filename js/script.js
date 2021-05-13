@@ -24,7 +24,7 @@ const imgLinks = [
     '/peck/1.png'
 ];
 
-const delay = 3000;
+const delay = 2000;
 let currentIndex = 0;
     setInterval(function() {
         image.src = imgLinks[currentIndex];

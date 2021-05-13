@@ -258,21 +258,10 @@ nav.main-menu.active {
     }
 }
 
-// #image {
-//     max-width: 100%;
-//     animation: fade 5s linear infinite;
-//     animation-delay: 2.5s;
-// }
-
-// #image2 {
-//     max-width: 100%;
-//     animation: fade 5s linear infinite;
-//     animation-delay: 2.5s;
-// }
 .imgAll {
     max-width: 100%;
-    animation: fade 5s linear infinite;
-    animation-delay: 2.5s;
+    animation: fade 2s linear infinite;
+    animation-delay: 1s;
 }
 
 @keyframes fade {
@@ -1937,8 +1926,6 @@ nav.main-menu.active {
     }
 }
 
-///
-
 .s11 {
     overflow: hidden;
     z-index: 1;
@@ -2415,10 +2402,12 @@ footer {
     .main-menu__link {
         padding: 0 20px;
     }
+
     .cloud {
         width: 480px;
         padding: 15px;
     }
+
     .cloud2 {
         width: 480px;
         padding: 15px;
